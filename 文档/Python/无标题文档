@@ -1,0 +1,40 @@
+1.python学习和环境的搭建 网上教程很多，在此不赘述；
+
+2.python import 
+用import 
+django; 
+
+import django
+django.VERSION
+
+-----------------
+
+import sys.path
+from os import *
+
+import string, re
+import time,random
+import socket,threading
+
+uname()[-1]
+'x86_64'
+
+导入系统已有模块
+
+#把模块所在目录添加到path当中，
+sys.path.append(path)
+from m import plus2
+
+
+#SyntaxError: invalid syntax
+“语法错误：不正确的语法”
+这段代码符合的语法规范是Python2.7的，而我使用的版本是3.4的。Python3.4的语法规范和2.7是有区别的。就本段代码而言，区别在于：3.4中print后需要括号，而
+
+#IndentationError: unexpected indent
+格式没有对齐。
+
+#TypeError: unsupported operand type(s) for +: 'int' and 'str'
+数字和字符拼接；
+
+
+
