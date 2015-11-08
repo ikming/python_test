@@ -1,0 +1,50 @@
+#python3 基础之条件与循环控制
+
+一般来说python 流程控制语句包括： if 条件  while 循环  for 循环
+
+range函数 以及break、continue、pass控制语句；
+
+======================================
+
+x = int(input("Please enter an integer:"))
+if x<0 :
+  print ('Negative')
+
+elif x>0 :
+  print ('Positive',)
+
+else:
+  print ('Zero',)
+
+
+========================================
+for statements;
+
+for variabe in sequence:
+    statements
+    else:
+    statements
+
+------
+words = ['cat','love','apple','python','friends']
+
+for item in words:
+  print (item,len(item))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
